@@ -2,15 +2,17 @@ html {
     font-family: sans-serif;
 }
 
+.standard_color{
+    color: #1f3f68;
+}
+
 .paragraph {
     font-size: 16px;
     line-height: 26px;
-    color: #1f3f68;
 }
 
 .first-heading {
     font-size: 64px;
-    color: #1f3f68;
 }
 
 .second-heading {
@@ -27,7 +29,6 @@ html {
 .fourth-heading {
     font-size: 20px;
     line-height: 30px;
-    color: #1f3f68;
 }
 
 .input-fields {
