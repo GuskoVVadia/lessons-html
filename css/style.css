@@ -2,6 +2,11 @@ html {
     font-family: sans-serif;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .standard_color{
     color: #1f3f68;
 }
@@ -50,5 +55,65 @@ html {
     text-transform: uppercase;
 }
 
+/* 
+    add home work #5
+    16.03.2021
+*/
 
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content h1{
+    width: 510px;
+}
+
+.header-content .paragraph{
+    width: 425px;
+}
+
+/*content middle*/
+
+.content-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 359px;
+}
+
+.content-bottom{
+    text-align: center;
+}
+
+/*footer bottom*/
+
+.footer-top{
+    width: 495px;
+}
+
+.footer-top h3{
+    width: 340px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*contact page*/
+.blocks-contacts-form{
+    display: flex;
+}
+
+.block{
+    flex-grow: 1;
+}
+
+iframe{
+    width: 100%;
+
+}
 

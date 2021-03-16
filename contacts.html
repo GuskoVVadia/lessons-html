@@ -9,50 +9,74 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Главная</a>
-        <a href="contacts.html">Контакты</a>
-    </header>
+    <div class="container">
+        <div class="header">
+            <div class="header-menu">
+                <a href="index.html">Главная</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+        </div>
 
-    <h2 class="second-heading">Contact Us</h2>
-    <p class="paragraph standard_color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, inventore.</p>
-    <img src="img/color_lines_contacts.jpg" alt="color lines">
-    <h4 class="fourth-heading standard_color">Address</h4>
-    <p class="paragraph standard_color">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    <h4 class="fourth-heading standard_color">Phone</h4>
-    <ul>
-        <li>0(000)000-00-00</li>
-        <li>0(000)000-00-01</li>
-    </ul>
-    <h4 class="fourth-heading standard_color">Online service</h4>
-    <ul>
-        <li><a href="https://www.www.ru"></a></li>
-        <li><a href="mailto:mail@mail.ru"></a></li>
-    </ul>
-    <h4 class="fourth-heading standard_color">Send us message</h4>
-    <form action="#" method="get">
-        Full name: <input class="input-fields" type="text"> <br>
-        Email: <input class="input-fields" type="email"> <br>
-        Message: <textarea class="input-fields"></textarea> <br>
-        <input class="button-form" type="button" value="Submit">
-    </form>
+        <div class="content-contacts-top">
+            <h2 class="second-heading">Contact Us</h2>
+            <p class="paragraph standard_color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, inventore.</p>
+            <img src="img/color_lines_contacts.jpg" alt="color lines">
+        </div>
 
+        <div class="blocks-contacts-form">
+
+            <div class="block contacts">
+                <h4 class="fourth-heading standard_color">Address</h4>
+                <p class="paragraph standard_color">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            
+                <h4 class="fourth-heading standard_color">Phone</h4>
+                <ul>
+                    <li>0(000)000-00-00</li>
+                    <li>0(000)000-00-01</li>
+                </ul>
+                <h4 class="fourth-heading standard_color">Online service</h4>
+                <ul>
+                    <li><a href="https://www.www.ru"></a></li>
+                    <li><a href="mailto:mail@mail.ru"></a></li>
+                </ul>
+            </div>
+
+            <div class="block form">
+                <h4 class="fourth-heading standard_color">Send us message</h4>
+                <form action="#" method="get">
+                    Full name: <input class="input-fields" type="text"> <br>
+                    Email: <input class="input-fields" type="email"> <br>
+                    Message: <textarea class="input-fields"></textarea> <br>
+                    <input class="button-form" type="button" value="Submit">
+                </form>
+            </div>
+
+        </div>
+    
     <!-- Размеры намеренно убраны для css -->
     <!-- width="320" height="320" -->
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa94d8f785e975dc80b5229cadb154c18f41d174d4f50deed9508878f81572078&amp;source=constructor"  frameborder="0">
     </iframe>
+    </div>
 
-    <footer>
-        <h3 class="third-heading">Lorem, ipsum dolor.</h3>
-        <p class="paragraph standard_color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, consectetur?</p>
-        <hr>
-            <ul>
+    <div class="footer">
+        <div class="container">
+
+            <div class="footer-top">
+                <h3 class="third-heading">Lorem, ipsum dolor.</h3>
+                <p class="paragraph standard_color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, consectetur?</p>
+            </div>
+            <hr>
+
+            <ul class="footer-list">
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>0(000)000-00-00</li>
                 <li>lorem@mail.ru</li>
             </ul>
             <p class="paragraph standard_color">Все права защищены &copy;</p>
-    </footer>
-    
+
+        </div>
+    </div>
+
 </body>
 </html>
