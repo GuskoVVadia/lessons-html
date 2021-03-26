@@ -23,20 +23,14 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
-}
-
-.menu a:first-of-type{
-    margin-top: 34px;
-}
-
-.menu a:last-of-type{
-    margin-top: 39px;
+    padding-top: 34px;
 }
 
 .top_middle{
     display: flex;
     margin-top: 107px;
 }
+
 .top_middle_content{}
 .top_middle_content h1{
     font-weight: 300;
@@ -257,15 +251,43 @@ footer{
 }
 .bottom_bottom_contacts ol{
     display: flex;
-    justify-content: space-around;
+    /* flex-grow: 1;
+    flex-basis: 33.3%; */
+    justify-content: space-between;
 }
+.bottom_bottom_contacts ol li:first-child::before{
+    content: "1.";
+    display: block;
+    margin-right: 16px;
+}
+
+.bottom_bottom_contacts ol li:nth-child(2)::before{
+    content: "2.";
+    display: block;
+    margin-right: 16px;
+}
+
+.bottom_bottom_contacts ol li:last-child::before{
+    content: "3.";
+    display: block;
+    margin-right: 16px;
+}
+
 .bottom_bottom_contacts ol li{
-    width: 316px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-
+    display: flex;
+    flex-basis: 33.3%;
+    flex-grow: 1;
+}
+.bottom_bottom_contacts_links{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
 .bottom_bottom_reserved p{
